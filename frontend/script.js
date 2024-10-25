@@ -1,4 +1,4 @@
-const socket = io();
+const socket = io("https://vinay-kumar123.github.io/hackathon/");
 const editor = document.getElementById('editor');
 
 // When the text is updated by others, reflect the changes
